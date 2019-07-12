@@ -1,0 +1,2701 @@
+2019-07-11 18:21:14 [127.0.0.1][-][g50p3334s908e9e80d8kl3rt63][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The "label" element is required for each link. in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\Breadcrumbs.php:166
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\Breadcrumbs.php(148): yii\widgets\Breadcrumbs->renderItem(Array, '<li class="acti...')
+#1 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Widget.php(140): yii\widgets\Breadcrumbs->run()
+#2 D:\OpenServer\OpenServer\domains\test.lc\views\layouts\main.php(60): yii\base\Widget::widget(Array)
+#3 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(348): require('D:\\OpenServer\\O...')
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\OpenServer\\O...', Array)
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('D:\\OpenServer\\O...', Array, Object(app\controllers\SiteController))
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#7 D:\OpenServer\OpenServer\domains\test.lc\controllers\SiteController.php(75): yii\base\Controller->render('login', Array)
+#8 [internal function]: app\controllers\SiteController->actionIndex()
+#9 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#12 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#13 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\OpenServer\OpenServer\domains\test.lc\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2019-07-11 18:21:14 [127.0.0.1][-][g50p3334s908e9e80d8kl3rt63][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'g50p3334s908e9e80d8kl3rt63'
+    '_csrf' => '368d220babb7a4e7c220937cf58e1d0412e48f23d0b0f091c60c33ad22d46b8ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"F52zY-i6Kq6XqY7owHTkitSthMYGqtpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'test.lc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=g50p3334s908e9e80d8kl3rt63; _csrf=368d220babb7a4e7c220937cf58e1d0412e48f23d0b0f091c60c33ad22d46b8ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22F52zY-i6Kq6XqY7owHTkitSthMYGqtpH%22%3B%7D'
+    'PATH' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'test.lc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/OpenServer/domains/test.lc/web/index.php'
+    'REMOTE_PORT' => '4840'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1562858474.17
+    'REQUEST_TIME' => 1562858474
+    'argv' => []
+    'argc' => 0
+]
+2019-07-11 18:21:27 [127.0.0.1][-][g50p3334s908e9e80d8kl3rt63][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The "label" element is required for each link. in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\Breadcrumbs.php:166
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\Breadcrumbs.php(148): yii\widgets\Breadcrumbs->renderItem(Array, '<li class="acti...')
+#1 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Widget.php(140): yii\widgets\Breadcrumbs->run()
+#2 D:\OpenServer\OpenServer\domains\test.lc\views\layouts\main.php(60): yii\base\Widget::widget(Array)
+#3 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(348): require('D:\\OpenServer\\O...')
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\OpenServer\\O...', Array)
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('D:\\OpenServer\\O...', Array, Object(app\controllers\SiteController))
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#7 D:\OpenServer\OpenServer\domains\test.lc\controllers\SiteController.php(75): yii\base\Controller->render('login', Array)
+#8 [internal function]: app\controllers\SiteController->actionIndex()
+#9 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#12 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#13 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\OpenServer\OpenServer\domains\test.lc\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2019-07-11 18:21:27 [127.0.0.1][-][g50p3334s908e9e80d8kl3rt63][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'g50p3334s908e9e80d8kl3rt63'
+    '_csrf' => '368d220babb7a4e7c220937cf58e1d0412e48f23d0b0f091c60c33ad22d46b8ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"F52zY-i6Kq6XqY7owHTkitSthMYGqtpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'test.lc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=g50p3334s908e9e80d8kl3rt63; _csrf=368d220babb7a4e7c220937cf58e1d0412e48f23d0b0f091c60c33ad22d46b8ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22F52zY-i6Kq6XqY7owHTkitSthMYGqtpH%22%3B%7D'
+    'PATH' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'test.lc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/OpenServer/domains/test.lc/web/index.php'
+    'REMOTE_PORT' => '4842'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1562858487.146
+    'REQUEST_TIME' => 1562858487
+    'argv' => []
+    'argc' => 0
+]
+2019-07-11 18:56:09 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/report in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('report', Array)
+#1 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/report', Array)
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\OpenServer\OpenServer\domains\test.lc\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OpenServer\OpenServer\domains\test.lc\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-07-11 18:56:09 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][info][application] $_GET = [
+    'r' => 'site/report'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ki3qhfjfk5d46ogkikdchcl7q3'
+    '_identity' => '7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'test.lc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ki3qhfjfk5d46ogkikdchcl7q3; _identity=7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck%22%3B%7D'
+    'PATH' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'test.lc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/OpenServer/domains/test.lc/web/index.php'
+    'REMOTE_PORT' => '5007'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Freport'
+    'REQUEST_URI' => '/web/index.php?r=site%2Freport'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1562860569.088
+    'REQUEST_TIME' => 1562860569
+    'argv' => [
+        0 => 'r=site%2Freport'
+    ]
+    'argc' => 1
+]
+2019-07-11 18:56:21 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/report in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('report', Array)
+#1 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/report', Array)
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\OpenServer\OpenServer\domains\test.lc\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OpenServer\OpenServer\domains\test.lc\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-07-11 18:56:21 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][info][application] $_GET = [
+    'r' => 'site/report'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ki3qhfjfk5d46ogkikdchcl7q3'
+    '_identity' => '7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'test.lc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ki3qhfjfk5d46ogkikdchcl7q3; _identity=7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck%22%3B%7D'
+    'PATH' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'test.lc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/OpenServer/domains/test.lc/web/index.php'
+    'REMOTE_PORT' => '5014'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Freport'
+    'REQUEST_URI' => '/web/index.php?r=site%2Freport'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1562860581.095
+    'REQUEST_TIME' => 1562860581
+    'argv' => [
+        0 => 'r=site%2Freport'
+    ]
+    'argc' => 1
+]
+2019-07-11 18:56:25 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: D:\OpenServer\OpenServer\domains\test.lc\views\report\login.php in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\OpenServer\\O...', Array, Object(app\controllers\ReportController))
+#1 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('login', Array, Object(app\controllers\ReportController))
+#2 D:\OpenServer\OpenServer\domains\test.lc\controllers\ReportController.php(68): yii\base\Controller->render('login', Array)
+#3 [internal function]: app\controllers\ReportController->actionIndex()
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#7 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('report/index', Array)
+#8 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\OpenServer\OpenServer\domains\test.lc\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2019-07-11 18:56:25 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][info][application] $_GET = [
+    'r' => 'report/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ki3qhfjfk5d46ogkikdchcl7q3'
+    '_identity' => '7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'test.lc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://test.lc/web/index.php?r=site%2Freport'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ki3qhfjfk5d46ogkikdchcl7q3; _identity=7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck%22%3B%7D'
+    'PATH' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'test.lc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/OpenServer/domains/test.lc/web/index.php'
+    'REMOTE_PORT' => '5013'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=report%2Findex'
+    'REQUEST_URI' => '/web/index.php?r=report%2Findex'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1562860585.359
+    'REQUEST_TIME' => 1562860585
+    'argv' => [
+        0 => 'r=report%2Findex'
+    ]
+    'argc' => 1
+]
+2019-07-11 18:57:50 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: D:\OpenServer\OpenServer\domains\test.lc\views\report\report.php in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\OpenServer\\O...', Array, Object(app\controllers\ReportController))
+#1 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('report', Array, Object(app\controllers\ReportController))
+#2 D:\OpenServer\OpenServer\domains\test.lc\controllers\ReportController.php(69): yii\base\Controller->render('report', Array)
+#3 [internal function]: app\controllers\ReportController->actionIndex()
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#7 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('report/index', Array)
+#8 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\OpenServer\OpenServer\domains\test.lc\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2019-07-11 18:57:50 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][info][application] $_GET = [
+    'r' => 'report/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ki3qhfjfk5d46ogkikdchcl7q3'
+    '_identity' => '7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'test.lc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://test.lc/web/index.php?r=site%2Freport'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ki3qhfjfk5d46ogkikdchcl7q3; _identity=7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck%22%3B%7D'
+    'PATH' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'test.lc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/OpenServer/domains/test.lc/web/index.php'
+    'REMOTE_PORT' => '5016'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=report%2Findex'
+    'REQUEST_URI' => '/web/index.php?r=report%2Findex'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1562860670.399
+    'REQUEST_TIME' => 1562860670
+    'argv' => [
+        0 => 'r=report%2Findex'
+    ]
+    'argc' => 1
+]
+2019-07-11 20:54:03 [-][-][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: app\models\ParseData::getData() in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Component.php:300
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\commands\ParseController.php(39): yii\base\Component->__call('getData', Array)
+#1 [internal function]: app\commands\ParseController->actionIndex('http://api.ias....', 100)
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('parse/index', Array)
+#7 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('parse/index', Array)
+#8 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 D:\OpenServer\OpenServer\domains\test.lc\yii(20): yii\base\Application->run()
+#10 {main}
+2019-07-11 20:54:03 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '88x9000 (88x25)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\алекс\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-UNBPEMRQ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuBackHWND' => '0x00040716'
+    'ConEmuBaseDir' => 'D:\\openserver\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '150813g'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\openserver\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x00060700'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x002F0420'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPID' => '13056'
+    'ConEmuPrompt0' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S'
+    'ConEmuPrompt1' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m'
+    'ConEmuPrompt2' => '$_$E[90m$$'
+    'ConEmuPrompt3' => '$E[m$S'
+    'ConEmuServerPID' => '12804'
+    'ConEmuWorkDir' => 'd:\\openserver\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'configsetroot' => 'C:\\WINDOWS\\ConfigSetRoot'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOME' => 'd:\\openserver\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\openserver\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\алекс\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-UNBPEMRQ'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\алекс\\OneDrive'
+    'OPENSSL_CONF' => 'd:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\openserver\\openserver\\modules\\conemu;D:\\openserver\\openserver\\modules\\conemu\\ConEmu;d:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHPDIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHPRC' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7'
+    'PHP_BIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_BINARY' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_BINDIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHP_INI' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4e03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'd:\\openserver\\openserver\\userdata\\temp'
+    'TMP' => 'd:\\openserver\\openserver\\userdata\\temp'
+    'USERDOMAIN' => 'LAPTOP-UNBPEMRQ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-UNBPEMRQ'
+    'USERNAME' => 'алекс'
+    'USERPROFILE' => 'C:\\Users\\алекс'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\'
+    '__COMPAT_LAYER' => 'Installer'
+    'PHP_SELF' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'SCRIPT_NAME' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'PATH_TRANSLATED' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1562867643.9085
+    'REQUEST_TIME' => 1562867643
+    'argv' => [
+        0 => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+        1 => 'parse/index'
+        2 => 'http://api.ias.brdo.com.ua/v1_1/inspections?apiKey=360d858edaac8313a73d237f340138c097ab6304'
+    ]
+    'argc' => 3
+]
+2019-07-11 20:54:27 [-][-][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: app\models\ParseData::getData() in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Component.php:300
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\commands\ParseController.php(39): yii\base\Component->__call('getData', Array)
+#1 [internal function]: app\commands\ParseController->actionIndex('http://api.ias....', 100)
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('parse/index', Array)
+#7 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('parse/index', Array)
+#8 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 D:\OpenServer\OpenServer\domains\test.lc\yii(20): yii\base\Application->run()
+#10 {main}
+2019-07-11 20:54:27 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '88x9000 (88x25)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\алекс\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-UNBPEMRQ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuBackHWND' => '0x00040716'
+    'ConEmuBaseDir' => 'D:\\openserver\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '150813g'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\openserver\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x00060700'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x002F0420'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPID' => '13056'
+    'ConEmuPrompt0' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S'
+    'ConEmuPrompt1' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m'
+    'ConEmuPrompt2' => '$_$E[90m$$'
+    'ConEmuPrompt3' => '$E[m$S'
+    'ConEmuServerPID' => '12804'
+    'ConEmuWorkDir' => 'd:\\openserver\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'configsetroot' => 'C:\\WINDOWS\\ConfigSetRoot'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOME' => 'd:\\openserver\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\openserver\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\алекс\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-UNBPEMRQ'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\алекс\\OneDrive'
+    'OPENSSL_CONF' => 'd:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\openserver\\openserver\\modules\\conemu;D:\\openserver\\openserver\\modules\\conemu\\ConEmu;d:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHPDIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHPRC' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7'
+    'PHP_BIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_BINARY' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_BINDIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHP_INI' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4e03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'd:\\openserver\\openserver\\userdata\\temp'
+    'TMP' => 'd:\\openserver\\openserver\\userdata\\temp'
+    'USERDOMAIN' => 'LAPTOP-UNBPEMRQ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-UNBPEMRQ'
+    'USERNAME' => 'алекс'
+    'USERPROFILE' => 'C:\\Users\\алекс'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\'
+    '__COMPAT_LAYER' => 'Installer'
+    'PHP_SELF' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'SCRIPT_NAME' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'PATH_TRANSLATED' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1562867667.3002
+    'REQUEST_TIME' => 1562867667
+    'argv' => [
+        0 => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+        1 => 'parse/index'
+        2 => 'http://api.ias.brdo.com.ua/v1_1/inspections?apiKey=360d858edaac8313a73d237f340138c097ab6304'
+    ]
+    'argc' => 3
+]
+2019-07-11 20:54:41 [-][-][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: app\models\ParseData::getData() in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Component.php:300
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\commands\ParseController.php(39): yii\base\Component->__call('getData', Array)
+#1 [internal function]: app\commands\ParseController->actionIndex('http://api.ias....', 100)
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('parse/index', Array)
+#7 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('parse/index', Array)
+#8 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 D:\OpenServer\OpenServer\domains\test.lc\yii(20): yii\base\Application->run()
+#10 {main}
+2019-07-11 20:54:41 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '88x9000 (88x25)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\алекс\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-UNBPEMRQ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuBackHWND' => '0x00040716'
+    'ConEmuBaseDir' => 'D:\\openserver\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '150813g'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\openserver\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x00060700'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x002F0420'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPID' => '13056'
+    'ConEmuPrompt0' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S'
+    'ConEmuPrompt1' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m'
+    'ConEmuPrompt2' => '$_$E[90m$$'
+    'ConEmuPrompt3' => '$E[m$S'
+    'ConEmuServerPID' => '12804'
+    'ConEmuWorkDir' => 'd:\\openserver\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'configsetroot' => 'C:\\WINDOWS\\ConfigSetRoot'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOME' => 'd:\\openserver\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\openserver\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\алекс\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-UNBPEMRQ'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\алекс\\OneDrive'
+    'OPENSSL_CONF' => 'd:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\openserver\\openserver\\modules\\conemu;D:\\openserver\\openserver\\modules\\conemu\\ConEmu;d:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHPDIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHPRC' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7'
+    'PHP_BIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_BINARY' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_BINDIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHP_INI' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4e03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'd:\\openserver\\openserver\\userdata\\temp'
+    'TMP' => 'd:\\openserver\\openserver\\userdata\\temp'
+    'USERDOMAIN' => 'LAPTOP-UNBPEMRQ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-UNBPEMRQ'
+    'USERNAME' => 'алекс'
+    'USERPROFILE' => 'C:\\Users\\алекс'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\'
+    '__COMPAT_LAYER' => 'Installer'
+    'PHP_SELF' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'SCRIPT_NAME' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'PATH_TRANSLATED' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1562867681.638
+    'REQUEST_TIME' => 1562867681
+    'argv' => [
+        0 => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+        1 => 'parse/index'
+        2 => 'http://api.ias.brdo.com.ua/v1_1/inspections?apiKey=360d858edaac8313a73d237f340138c097ab6304'
+    ]
+    'argc' => 3
+]
+2019-07-11 21:24:34 [-][-][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: app\models\ParseData::getDataJson() in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Component.php:300
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\commands\ParseController.php(40): yii\base\Component->__call('getDataJson', Array)
+#1 [internal function]: app\commands\ParseController->actionIndex('http://api.ias....', 100)
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('parse/index', Array)
+#7 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('parse/index', Array)
+#8 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 D:\OpenServer\OpenServer\domains\test.lc\yii(20): yii\base\Application->run()
+#10 {main}
+2019-07-11 21:24:34 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '88x9000 (88x25)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\алекс\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-UNBPEMRQ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuBackHWND' => '0x00040716'
+    'ConEmuBaseDir' => 'D:\\openserver\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '150813g'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\openserver\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x00060700'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x002F0420'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPID' => '13056'
+    'ConEmuPrompt0' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S'
+    'ConEmuPrompt1' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m'
+    'ConEmuPrompt2' => '$_$E[90m$$'
+    'ConEmuPrompt3' => '$E[m$S'
+    'ConEmuServerPID' => '12804'
+    'ConEmuWorkDir' => 'd:\\openserver\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'configsetroot' => 'C:\\WINDOWS\\ConfigSetRoot'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOME' => 'd:\\openserver\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\openserver\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\алекс\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-UNBPEMRQ'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\алекс\\OneDrive'
+    'OPENSSL_CONF' => 'd:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\openserver\\openserver\\modules\\conemu;D:\\openserver\\openserver\\modules\\conemu\\ConEmu;d:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHPDIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHPRC' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7'
+    'PHP_BIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_BINARY' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_BINDIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHP_INI' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4e03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'd:\\openserver\\openserver\\userdata\\temp'
+    'TMP' => 'd:\\openserver\\openserver\\userdata\\temp'
+    'USERDOMAIN' => 'LAPTOP-UNBPEMRQ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-UNBPEMRQ'
+    'USERNAME' => 'алекс'
+    'USERPROFILE' => 'C:\\Users\\алекс'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\'
+    '__COMPAT_LAYER' => 'Installer'
+    'PHP_SELF' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'SCRIPT_NAME' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'PATH_TRANSLATED' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1562869474.934
+    'REQUEST_TIME' => 1562869474
+    'argv' => [
+        0 => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+        1 => 'parse/index'
+        2 => 'http://api.ias.brdo.com.ua/v1_1/inspections?apiKey=360d858edaac8313a73d237f340138c097ab6304'
+    ]
+    'argc' => 3
+]
+2019-07-11 21:25:24 [-][-][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: app\models\ParseData::getDataJson() in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Component.php:300
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\commands\ParseController.php(40): yii\base\Component->__call('getDataJson', Array)
+#1 [internal function]: app\commands\ParseController->actionIndex('http://api.ias....', 100)
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('parse/index', Array)
+#7 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('parse/index', Array)
+#8 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 D:\OpenServer\OpenServer\domains\test.lc\yii(20): yii\base\Application->run()
+#10 {main}
+2019-07-11 21:25:24 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '88x9000 (88x25)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\алекс\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-UNBPEMRQ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuBackHWND' => '0x00040716'
+    'ConEmuBaseDir' => 'D:\\openserver\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '150813g'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\openserver\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x00060700'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x002F0420'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPID' => '13056'
+    'ConEmuPrompt0' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S'
+    'ConEmuPrompt1' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m'
+    'ConEmuPrompt2' => '$_$E[90m$$'
+    'ConEmuPrompt3' => '$E[m$S'
+    'ConEmuServerPID' => '12804'
+    'ConEmuWorkDir' => 'd:\\openserver\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'configsetroot' => 'C:\\WINDOWS\\ConfigSetRoot'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOME' => 'd:\\openserver\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\openserver\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\алекс\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-UNBPEMRQ'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\алекс\\OneDrive'
+    'OPENSSL_CONF' => 'd:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\openserver\\openserver\\modules\\conemu;D:\\openserver\\openserver\\modules\\conemu\\ConEmu;d:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHPDIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHPRC' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7'
+    'PHP_BIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_BINARY' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_BINDIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHP_INI' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4e03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'd:\\openserver\\openserver\\userdata\\temp'
+    'TMP' => 'd:\\openserver\\openserver\\userdata\\temp'
+    'USERDOMAIN' => 'LAPTOP-UNBPEMRQ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-UNBPEMRQ'
+    'USERNAME' => 'алекс'
+    'USERPROFILE' => 'C:\\Users\\алекс'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\'
+    '__COMPAT_LAYER' => 'Installer'
+    'PHP_SELF' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'SCRIPT_NAME' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'PATH_TRANSLATED' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1562869524.2127
+    'REQUEST_TIME' => 1562869524
+    'argv' => [
+        0 => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+        1 => 'parse/index'
+        2 => 'http://api.ias.brdo.com.ua/v1_1/inspections?apiKey=360d858edaac8313a73d237f340138c097ab6304'
+    ]
+    'argc' => 3
+]
+2019-07-11 21:25:46 [-][-][-][error][Error] Error: Class 'app\commands\Yii' not found in D:\OpenServer\OpenServer\domains\test.lc\commands\ParseController.php:57
+Stack trace:
+#0 [internal function]: app\commands\ParseController->actionIndex('http://api.ias....', 100)
+#1 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('parse/index', Array)
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('parse/index', Array)
+#7 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 D:\OpenServer\OpenServer\domains\test.lc\yii(20): yii\base\Application->run()
+#9 {main}
+2019-07-11 21:25:44 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '88x9000 (88x25)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\алекс\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-UNBPEMRQ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuBackHWND' => '0x00040716'
+    'ConEmuBaseDir' => 'D:\\openserver\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '150813g'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\openserver\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x00060700'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x002F0420'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPID' => '13056'
+    'ConEmuPrompt0' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S'
+    'ConEmuPrompt1' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m'
+    'ConEmuPrompt2' => '$_$E[90m$$'
+    'ConEmuPrompt3' => '$E[m$S'
+    'ConEmuServerPID' => '12804'
+    'ConEmuWorkDir' => 'd:\\openserver\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'configsetroot' => 'C:\\WINDOWS\\ConfigSetRoot'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOME' => 'd:\\openserver\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\openserver\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\алекс\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-UNBPEMRQ'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\алекс\\OneDrive'
+    'OPENSSL_CONF' => 'd:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\openserver\\openserver\\modules\\conemu;D:\\openserver\\openserver\\modules\\conemu\\ConEmu;d:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHPDIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHPRC' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7'
+    'PHP_BIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_BINARY' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_BINDIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHP_INI' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4e03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'd:\\openserver\\openserver\\userdata\\temp'
+    'TMP' => 'd:\\openserver\\openserver\\userdata\\temp'
+    'USERDOMAIN' => 'LAPTOP-UNBPEMRQ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-UNBPEMRQ'
+    'USERNAME' => 'алекс'
+    'USERPROFILE' => 'C:\\Users\\алекс'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\'
+    '__COMPAT_LAYER' => 'Installer'
+    'PHP_SELF' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'SCRIPT_NAME' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'PATH_TRANSLATED' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1562869544.6986
+    'REQUEST_TIME' => 1562869544
+    'argv' => [
+        0 => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+        1 => 'parse/index'
+        2 => 'http://api.ias.brdo.com.ua/v1_1/inspections?apiKey=360d858edaac8313a73d237f340138c097ab6304'
+    ]
+    'argc' => 3
+]
+2019-07-11 21:26:59 [-][-][-][error][Error] Error: Class 'app\commands\Yii' not found in D:\OpenServer\OpenServer\domains\test.lc\commands\ParseController.php:59
+Stack trace:
+#0 [internal function]: app\commands\ParseController->actionIndex('http://api.ias....', 100)
+#1 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('parse/index', Array)
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('parse/index', Array)
+#7 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 D:\OpenServer\OpenServer\domains\test.lc\yii(20): yii\base\Application->run()
+#9 {main}
+2019-07-11 21:26:57 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '88x9000 (88x25)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\алекс\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-UNBPEMRQ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuBackHWND' => '0x00040716'
+    'ConEmuBaseDir' => 'D:\\openserver\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '150813g'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\openserver\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x00060700'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x002F0420'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPID' => '13056'
+    'ConEmuPrompt0' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S'
+    'ConEmuPrompt1' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m'
+    'ConEmuPrompt2' => '$_$E[90m$$'
+    'ConEmuPrompt3' => '$E[m$S'
+    'ConEmuServerPID' => '12804'
+    'ConEmuWorkDir' => 'd:\\openserver\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'configsetroot' => 'C:\\WINDOWS\\ConfigSetRoot'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOME' => 'd:\\openserver\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\openserver\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\алекс\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-UNBPEMRQ'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\алекс\\OneDrive'
+    'OPENSSL_CONF' => 'd:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\openserver\\openserver\\modules\\conemu;D:\\openserver\\openserver\\modules\\conemu\\ConEmu;d:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHPDIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHPRC' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7'
+    'PHP_BIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_BINARY' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_BINDIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHP_INI' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4e03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'd:\\openserver\\openserver\\userdata\\temp'
+    'TMP' => 'd:\\openserver\\openserver\\userdata\\temp'
+    'USERDOMAIN' => 'LAPTOP-UNBPEMRQ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-UNBPEMRQ'
+    'USERNAME' => 'алекс'
+    'USERPROFILE' => 'C:\\Users\\алекс'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\'
+    '__COMPAT_LAYER' => 'Installer'
+    'PHP_SELF' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'SCRIPT_NAME' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'PATH_TRANSLATED' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1562869617.9375
+    'REQUEST_TIME' => 1562869617
+    'argv' => [
+        0 => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+        1 => 'parse/index'
+        2 => 'http://api.ias.brdo.com.ua/v1_1/inspections?apiKey=360d858edaac8313a73d237f340138c097ab6304'
+    ]
+    'argc' => 3
+]
+2019-07-11 21:30:55 [-][-][-][error][Error] Error: Call to undefined function app\commands\strtorime() in D:\OpenServer\OpenServer\domains\test.lc\commands\ParseController.php:55
+Stack trace:
+#0 [internal function]: app\commands\ParseController->actionIndex('http://api.ias....', 100)
+#1 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('parse/index', Array)
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('parse/index', Array)
+#7 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 D:\OpenServer\OpenServer\domains\test.lc\yii(20): yii\base\Application->run()
+#9 {main}
+2019-07-11 21:30:53 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '88x9000 (88x25)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\алекс\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-UNBPEMRQ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuBackHWND' => '0x00040716'
+    'ConEmuBaseDir' => 'D:\\openserver\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '150813g'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\openserver\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x00060700'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x002F0420'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPID' => '13056'
+    'ConEmuPrompt0' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S'
+    'ConEmuPrompt1' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m'
+    'ConEmuPrompt2' => '$_$E[90m$$'
+    'ConEmuPrompt3' => '$E[m$S'
+    'ConEmuServerPID' => '12804'
+    'ConEmuWorkDir' => 'd:\\openserver\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'configsetroot' => 'C:\\WINDOWS\\ConfigSetRoot'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOME' => 'd:\\openserver\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\openserver\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\алекс\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-UNBPEMRQ'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\алекс\\OneDrive'
+    'OPENSSL_CONF' => 'd:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\openserver\\openserver\\modules\\conemu;D:\\openserver\\openserver\\modules\\conemu\\ConEmu;d:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHPDIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHPRC' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7'
+    'PHP_BIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_BINARY' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_BINDIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHP_INI' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4e03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'd:\\openserver\\openserver\\userdata\\temp'
+    'TMP' => 'd:\\openserver\\openserver\\userdata\\temp'
+    'USERDOMAIN' => 'LAPTOP-UNBPEMRQ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-UNBPEMRQ'
+    'USERNAME' => 'алекс'
+    'USERPROFILE' => 'C:\\Users\\алекс'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\'
+    '__COMPAT_LAYER' => 'Installer'
+    'PHP_SELF' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'SCRIPT_NAME' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'PATH_TRANSLATED' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1562869853.8665
+    'REQUEST_TIME' => 1562869853
+    'argv' => [
+        0 => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+        1 => 'parse/index'
+        2 => 'http://api.ias.brdo.com.ua/v1_1/inspections?apiKey=360d858edaac8313a73d237f340138c097ab6304'
+    ]
+    'argc' => 3
+]
+2019-07-11 21:35:10 [-][-][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: yii\db\Command::excute() in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Component.php:300
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\commands\ParseController.php(59): yii\base\Component->__call('excute', Array)
+#1 [internal function]: app\commands\ParseController->actionIndex('http://api.ias....', 100)
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('index', Array)
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('index', Array)
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('parse/index', Array)
+#7 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('parse/index', Array)
+#8 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 D:\OpenServer\OpenServer\domains\test.lc\yii(20): yii\base\Application->run()
+#10 {main}
+2019-07-11 21:35:08 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '88x9000 (88x25)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\алекс\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-UNBPEMRQ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuBackHWND' => '0x00040716'
+    'ConEmuBaseDir' => 'D:\\openserver\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '150813g'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\openserver\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x00060700'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x002F0420'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPID' => '13056'
+    'ConEmuPrompt0' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S'
+    'ConEmuPrompt1' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m'
+    'ConEmuPrompt2' => '$_$E[90m$$'
+    'ConEmuPrompt3' => '$E[m$S'
+    'ConEmuServerPID' => '12804'
+    'ConEmuWorkDir' => 'd:\\openserver\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'configsetroot' => 'C:\\WINDOWS\\ConfigSetRoot'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOME' => 'd:\\openserver\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\openserver\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\алекс\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-UNBPEMRQ'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\алекс\\OneDrive'
+    'OPENSSL_CONF' => 'd:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\openserver\\openserver\\modules\\conemu;D:\\openserver\\openserver\\modules\\conemu\\ConEmu;d:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHPDIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHPRC' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7'
+    'PHP_BIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_BINARY' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_BINDIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\'
+    'PHP_INI' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4e03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'd:\\openserver\\openserver\\userdata\\temp'
+    'TMP' => 'd:\\openserver\\openserver\\userdata\\temp'
+    'USERDOMAIN' => 'LAPTOP-UNBPEMRQ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-UNBPEMRQ'
+    'USERNAME' => 'алекс'
+    'USERPROFILE' => 'C:\\Users\\алекс'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\'
+    '__COMPAT_LAYER' => 'Installer'
+    'PHP_SELF' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'SCRIPT_NAME' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'PATH_TRANSLATED' => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1562870108.3724
+    'REQUEST_TIME' => 1562870108
+    'argv' => [
+        0 => 'd:\\OpenServer\\OpenServer\\domains\\test.lc\\yii'
+        1 => 'parse/index'
+        2 => 'http://api.ias.brdo.com.ua/v1_1/inspections?apiKey=360d858edaac8313a73d237f340138c097ab6304'
+    ]
+    'argc' => 3
+]
+2019-07-11 21:45:54 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][error][yii\base\ErrorException:2] yii\base\ErrorException: Missing argument 1 for yii\db\BaseActiveRecord::findAll(), called in D:\OpenServer\OpenServer\domains\test.lc\views\report\report.php on line 10 and defined in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\db\BaseActiveRecord.php:119
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\db\BaseActiveRecord.php(119): yii\base\ErrorHandler->handleError(2, 'Missing argumen...', 'D:\\OpenServer\\O...', 119, Array)
+#1 D:\OpenServer\OpenServer\domains\test.lc\views\report\report.php(10): yii\db\BaseActiveRecord::findAll()
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(348): require('D:\\OpenServer\\O...')
+#3 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\OpenServer\\O...', Array)
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\OpenServer\\O...', Array, Object(app\controllers\ReportController))
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('report', Array, Object(app\controllers\ReportController))
+#6 D:\OpenServer\OpenServer\domains\test.lc\controllers\ReportController.php(69): yii\base\Controller->render('report', Array)
+#7 [internal function]: app\controllers\ReportController->actionIndex()
+#8 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('report/index', Array)
+#12 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\OpenServer\OpenServer\domains\test.lc\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2019-07-11 21:45:53 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][info][application] $_GET = [
+    'r' => 'report/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ki3qhfjfk5d46ogkikdchcl7q3'
+    '_identity' => '7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'test.lc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://test.lc/web/index.php?r=site%2Freport'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ki3qhfjfk5d46ogkikdchcl7q3; _identity=7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck%22%3B%7D'
+    'PATH' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'test.lc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/OpenServer/domains/test.lc/web/index.php'
+    'REMOTE_PORT' => '5954'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=report%2Findex'
+    'REQUEST_URI' => '/web/index.php?r=report%2Findex'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1562870753.879
+    'REQUEST_TIME' => 1562870753
+    'argv' => [
+        0 => 'r=report%2Findex'
+    ]
+    'argc' => 1
+]
+2019-07-11 21:46:16 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The "query" property must be an instance of a class that implements the QueryInterface e.g. yii\db\Query or its subclasses. in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\data\ActiveDataProvider.php:102
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#1 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(589): yii\data\BaseDataProvider->getModels()
+#3 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(543): yii\grid\GridView->guessColumns()
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(288): yii\grid\GridView->initColumns()
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\grid\GridView->init()
+#6 [internal function]: yii\base\BaseObject->__construct(Array)
+#7 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\di\Container.php(384): ReflectionClass->newInstanceArgs(Array)
+#8 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\grid\\GridVi...', Array, Array)
+#9 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\grid\\GridVi...', Array, Array)
+#10 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Widget.php(137): yii\BaseYii::createObject(Array)
+#11 D:\OpenServer\OpenServer\domains\test.lc\views\report\report.php(16): yii\base\Widget::widget(Array)
+#12 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(348): require('D:\\OpenServer\\O...')
+#13 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\OpenServer\\O...', Array)
+#14 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\OpenServer\\O...', Array, Object(app\controllers\ReportController))
+#15 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('report', Array, Object(app\controllers\ReportController))
+#16 D:\OpenServer\OpenServer\domains\test.lc\controllers\ReportController.php(69): yii\base\Controller->render('report', Array)
+#17 [internal function]: app\controllers\ReportController->actionIndex()
+#18 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#20 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#21 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('report/index', Array)
+#22 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 D:\OpenServer\OpenServer\domains\test.lc\web\index.php(12): yii\base\Application->run()
+#24 {main}
+2019-07-11 21:46:15 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][info][application] $_GET = [
+    'r' => 'report/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ki3qhfjfk5d46ogkikdchcl7q3'
+    '_identity' => '7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'test.lc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://test.lc/web/index.php?r=site%2Freport'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ki3qhfjfk5d46ogkikdchcl7q3; _identity=7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck%22%3B%7D'
+    'PATH' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'test.lc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/OpenServer/domains/test.lc/web/index.php'
+    'REMOTE_PORT' => '5957'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=report%2Findex'
+    'REQUEST_URI' => '/web/index.php?r=report%2Findex'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1562870775.904
+    'REQUEST_TIME' => 1562870775
+    'argv' => [
+        0 => 'r=report%2Findex'
+    ]
+    'argc' => 1
+]
+2019-07-11 21:49:59 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][error][ParseError] ParseError: syntax error, unexpected '}', expecting ']' in D:\OpenServer\OpenServer\domains\test.lc\views\report\report.php:30
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\OpenServer\\O...', Array)
+#1 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\OpenServer\\O...', Array, Object(app\controllers\ReportController))
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('report', Array, Object(app\controllers\ReportController))
+#3 D:\OpenServer\OpenServer\domains\test.lc\controllers\ReportController.php(69): yii\base\Controller->render('report', Array)
+#4 [internal function]: app\controllers\ReportController->actionIndex()
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#8 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('report/index', Array)
+#9 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\OpenServer\OpenServer\domains\test.lc\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2019-07-11 21:49:59 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][info][application] $_GET = [
+    'r' => 'report/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ki3qhfjfk5d46ogkikdchcl7q3'
+    '_identity' => '7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'test.lc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://test.lc/web/index.php?r=site%2Freport'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ki3qhfjfk5d46ogkikdchcl7q3; _identity=7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck%22%3B%7D'
+    'PATH' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'test.lc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/OpenServer/domains/test.lc/web/index.php'
+    'REMOTE_PORT' => '5969'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=report%2Findex'
+    'REQUEST_URI' => '/web/index.php?r=report%2Findex'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1562870999.762
+    'REQUEST_TIME' => 1562870999
+    'argv' => [
+        0 => 'r=report%2Findex'
+    ]
+    'argc' => 1
+]
+2019-07-11 21:50:09 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Report::getInternalId in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('getInternalId')
+#1 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(209): yii\db\BaseActiveRecord->__get('getInternalId')
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\DataColumn.php(232): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Report), 'getInternalId')
+#3 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\DataColumn.php(244): yii\grid\DataColumn->getDataCellValue(Object(app\models\Report), 1, 0)
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Report), 1, 0)
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(525): yii\grid\Column->renderDataCell(Object(app\models\Report), 1, 0)
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(494): yii\grid\GridView->renderTableRow(Object(app\models\Report), 1, 0)
+#7 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(358): yii\grid\GridView->renderTableBody()
+#8 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#9 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(326): yii\widgets\BaseListView->renderSection('{items}')
+#10 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#11 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#12 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#13 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(301): yii\widgets\BaseListView->run()
+#14 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#15 D:\OpenServer\OpenServer\domains\test.lc\views\report\report.php(16): yii\base\Widget::widget(Array)
+#16 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(348): require('D:\\OpenServer\\O...')
+#17 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\OpenServer\\O...', Array)
+#18 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\OpenServer\\O...', Array, Object(app\controllers\ReportController))
+#19 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('report', Array, Object(app\controllers\ReportController))
+#20 D:\OpenServer\OpenServer\domains\test.lc\controllers\ReportController.php(69): yii\base\Controller->render('report', Array)
+#21 [internal function]: app\controllers\ReportController->actionIndex()
+#22 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#23 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#24 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#25 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('report/index', Array)
+#26 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 D:\OpenServer\OpenServer\domains\test.lc\web\index.php(12): yii\base\Application->run()
+#28 {main}
+2019-07-11 21:50:07 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][info][application] $_GET = [
+    'r' => 'report/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ki3qhfjfk5d46ogkikdchcl7q3'
+    '_identity' => '7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'test.lc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://test.lc/web/index.php?r=site%2Freport'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ki3qhfjfk5d46ogkikdchcl7q3; _identity=7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck%22%3B%7D'
+    'PATH' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'test.lc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/OpenServer/domains/test.lc/web/index.php'
+    'REMOTE_PORT' => '5970'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=report%2Findex'
+    'REQUEST_URI' => '/web/index.php?r=report%2Findex'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1562871007.868
+    'REQUEST_TIME' => 1562871007
+    'argv' => [
+        0 => 'r=report%2Findex'
+    ]
+    'argc' => 1
+]
+2019-07-11 21:57:36 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][error][yii\base\ErrorException:2] yii\base\ErrorException: Missing argument 1 for yii\db\BaseActiveRecord::findAll(), called in D:\OpenServer\OpenServer\domains\test.lc\views\report\report.php on line 10 and defined in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\db\BaseActiveRecord.php:119
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\db\BaseActiveRecord.php(119): yii\base\ErrorHandler->handleError(2, 'Missing argumen...', 'D:\\OpenServer\\O...', 119, Array)
+#1 D:\OpenServer\OpenServer\domains\test.lc\views\report\report.php(10): yii\db\BaseActiveRecord::findAll()
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(348): require('D:\\OpenServer\\O...')
+#3 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\OpenServer\\O...', Array)
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\OpenServer\\O...', Array, Object(app\controllers\ReportController))
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('report', Array, Object(app\controllers\ReportController))
+#6 D:\OpenServer\OpenServer\domains\test.lc\controllers\ReportController.php(69): yii\base\Controller->render('report', Array)
+#7 [internal function]: app\controllers\ReportController->actionIndex()
+#8 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('report/index', Array)
+#12 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\OpenServer\OpenServer\domains\test.lc\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2019-07-11 21:57:36 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][info][application] $_GET = [
+    'r' => 'report/index'
+    'sort' => '-regulator'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ki3qhfjfk5d46ogkikdchcl7q3'
+    '_identity' => '7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'test.lc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://test.lc/web/index.php?r=report%2Findex&sort=regulator'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ki3qhfjfk5d46ogkikdchcl7q3; _identity=7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck%22%3B%7D'
+    'PATH' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'test.lc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/OpenServer/domains/test.lc/web/index.php'
+    'REMOTE_PORT' => '6222'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=report%2Findex&sort=-regulator'
+    'REQUEST_URI' => '/web/index.php?r=report%2Findex&sort=-regulator'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1562871456.089
+    'REQUEST_TIME' => 1562871456
+    'argv' => [
+        0 => 'r=report%2Findex&sort=-regulator'
+    ]
+    'argc' => 1
+]
+2019-07-11 21:57:50 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The "query" property must be an instance of a class that implements the QueryInterface e.g. yii\db\Query or its subclasses. in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\data\ActiveDataProvider.php:102
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#1 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\data\BaseDataProvider.php(155): yii\data\BaseDataProvider->getModels()
+#3 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(326): yii\widgets\BaseListView->renderSection('{summary}')
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{summary}')
+#7 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#8 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#9 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(301): yii\widgets\BaseListView->run()
+#10 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#11 D:\OpenServer\OpenServer\domains\test.lc\views\report\report.php(18): yii\base\Widget::widget(Array)
+#12 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(348): require('D:\\OpenServer\\O...')
+#13 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\OpenServer\\O...', Array)
+#14 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\OpenServer\\O...', Array, Object(app\controllers\ReportController))
+#15 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('report', Array, Object(app\controllers\ReportController))
+#16 D:\OpenServer\OpenServer\domains\test.lc\controllers\ReportController.php(69): yii\base\Controller->render('report', Array)
+#17 [internal function]: app\controllers\ReportController->actionIndex()
+#18 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#20 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#21 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('report/index', Array)
+#22 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 D:\OpenServer\OpenServer\domains\test.lc\web\index.php(12): yii\base\Application->run()
+#24 {main}
+2019-07-11 21:57:49 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][info][application] $_GET = [
+    'r' => 'report/index'
+    'sort' => '-regulator'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ki3qhfjfk5d46ogkikdchcl7q3'
+    '_identity' => '7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'test.lc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://test.lc/web/index.php?r=report%2Findex&sort=regulator'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ki3qhfjfk5d46ogkikdchcl7q3; _identity=7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck%22%3B%7D'
+    'PATH' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'test.lc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/OpenServer/domains/test.lc/web/index.php'
+    'REMOTE_PORT' => '6234'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=report%2Findex&sort=-regulator'
+    'REQUEST_URI' => '/web/index.php?r=report%2Findex&sort=-regulator'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1562871469.651
+    'REQUEST_TIME' => 1562871469
+    'argv' => [
+        0 => 'r=report%2Findex&sort=-regulator'
+    ]
+    'argc' => 1
+]
+2019-07-11 22:05:54 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The "query" property must be an instance of a class that implements the QueryInterface e.g. yii\db\Query or its subclasses. in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\data\ActiveDataProvider.php:102
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#1 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\data\BaseDataProvider.php(155): yii\data\BaseDataProvider->getModels()
+#3 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(326): yii\widgets\BaseListView->renderSection('{summary}')
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{summary}')
+#7 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#8 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#9 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(301): yii\widgets\BaseListView->run()
+#10 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#11 D:\OpenServer\OpenServer\domains\test.lc\views\report\report.php(20): yii\base\Widget::widget(Array)
+#12 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(348): require('D:\\OpenServer\\O...')
+#13 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\OpenServer\\O...', Array)
+#14 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\OpenServer\\O...', Array, Object(app\controllers\ReportController))
+#15 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('report', Array, Object(app\controllers\ReportController))
+#16 D:\OpenServer\OpenServer\domains\test.lc\controllers\ReportController.php(69): yii\base\Controller->render('report', Array)
+#17 [internal function]: app\controllers\ReportController->actionIndex()
+#18 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#20 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#21 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('report/index', Array)
+#22 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 D:\OpenServer\OpenServer\domains\test.lc\web\index.php(12): yii\base\Application->run()
+#24 {main}
+2019-07-11 22:05:54 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][info][application] $_GET = [
+    'r' => 'report/index'
+    'sort' => '-regulator'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ki3qhfjfk5d46ogkikdchcl7q3'
+    '_identity' => '7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'test.lc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://test.lc/web/index.php?r=report%2Findex&sort=regulator'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ki3qhfjfk5d46ogkikdchcl7q3; _identity=7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck%22%3B%7D'
+    'PATH' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'test.lc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/OpenServer/domains/test.lc/web/index.php'
+    'REMOTE_PORT' => '6746'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=report%2Findex&sort=-regulator'
+    'REQUEST_URI' => '/web/index.php?r=report%2Findex&sort=-regulator'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1562871954.094
+    'REQUEST_TIME' => 1562871954
+    'argv' => [
+        0 => 'r=report%2Findex&sort=-regulator'
+    ]
+    'argc' => 1
+]
+2019-07-11 22:06:36 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The "query" property must be an instance of a class that implements the QueryInterface e.g. yii\db\Query or its subclasses. in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\data\ActiveDataProvider.php:102
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#1 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\data\BaseDataProvider.php(155): yii\data\BaseDataProvider->getModels()
+#3 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(190): yii\data\BaseDataProvider->getCount()
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(158): yii\widgets\BaseListView->renderSummary()
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(326): yii\widgets\BaseListView->renderSection('{summary}')
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{summary}')
+#7 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#8 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#9 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(301): yii\widgets\BaseListView->run()
+#10 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#11 D:\OpenServer\OpenServer\domains\test.lc\views\report\report.php(20): yii\base\Widget::widget(Array)
+#12 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(348): require('D:\\OpenServer\\O...')
+#13 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\OpenServer\\O...', Array)
+#14 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\OpenServer\\O...', Array, Object(app\controllers\ReportController))
+#15 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('report', Array, Object(app\controllers\ReportController))
+#16 D:\OpenServer\OpenServer\domains\test.lc\controllers\ReportController.php(69): yii\base\Controller->render('report', Array)
+#17 [internal function]: app\controllers\ReportController->actionIndex()
+#18 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#20 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#21 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('report/index', Array)
+#22 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 D:\OpenServer\OpenServer\domains\test.lc\web\index.php(12): yii\base\Application->run()
+#24 {main}
+2019-07-11 22:06:36 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][info][application] $_GET = [
+    'r' => 'report/index'
+    'sort' => '-regulator'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ki3qhfjfk5d46ogkikdchcl7q3'
+    '_identity' => '7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'test.lc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://test.lc/web/index.php?r=report%2Findex&sort=regulator'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ki3qhfjfk5d46ogkikdchcl7q3; _identity=7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck%22%3B%7D'
+    'PATH' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'test.lc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/OpenServer/domains/test.lc/web/index.php'
+    'REMOTE_PORT' => '6786'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=report%2Findex&sort=-regulator'
+    'REQUEST_URI' => '/web/index.php?r=report%2Findex&sort=-regulator'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1562871996.215
+    'REQUEST_TIME' => 1562871996
+    'argv' => [
+        0 => 'r=report%2Findex&sort=-regulator'
+    ]
+    'argc' => 1
+]
+2019-07-11 22:07:51 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][error][ParseError] ParseError: syntax error, unexpected 'echo' (T_ECHO) in D:\OpenServer\OpenServer\domains\test.lc\views\report\report.php:38
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\OpenServer\\O...', Array)
+#1 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\OpenServer\\O...', Array, Object(app\controllers\ReportController))
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('report', Array, Object(app\controllers\ReportController))
+#3 D:\OpenServer\OpenServer\domains\test.lc\controllers\ReportController.php(69): yii\base\Controller->render('report', Array)
+#4 [internal function]: app\controllers\ReportController->actionIndex()
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#8 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('report/index', Array)
+#9 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\OpenServer\OpenServer\domains\test.lc\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2019-07-11 22:07:51 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][info][application] $_GET = [
+    'r' => 'report/index'
+    'sort' => '-regulator'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ki3qhfjfk5d46ogkikdchcl7q3'
+    '_identity' => '7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'test.lc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://test.lc/web/index.php?r=report%2Findex&sort=regulator'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ki3qhfjfk5d46ogkikdchcl7q3; _identity=7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck%22%3B%7D'
+    'PATH' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'test.lc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/OpenServer/domains/test.lc/web/index.php'
+    'REMOTE_PORT' => '6858'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=report%2Findex&sort=-regulator'
+    'REQUEST_URI' => '/web/index.php?r=report%2Findex&sort=-regulator'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1562872071.263
+    'REQUEST_TIME' => 1562872071
+    'argv' => [
+        0 => 'r=report%2Findex&sort=-regulator'
+    ]
+    'argc' => 1
+]
+2019-07-11 22:07:59 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][error][ParseError] ParseError: syntax error, unexpected 'echo' (T_ECHO) in D:\OpenServer\OpenServer\domains\test.lc\views\report\report.php:38
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\OpenServer\\O...', Array)
+#1 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\OpenServer\\O...', Array, Object(app\controllers\ReportController))
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('report', Array, Object(app\controllers\ReportController))
+#3 D:\OpenServer\OpenServer\domains\test.lc\controllers\ReportController.php(69): yii\base\Controller->render('report', Array)
+#4 [internal function]: app\controllers\ReportController->actionIndex()
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#8 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('report/index', Array)
+#9 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\OpenServer\OpenServer\domains\test.lc\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2019-07-11 22:07:59 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][info][application] $_GET = [
+    'r' => 'report/index'
+    'sort' => '-regulator'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ki3qhfjfk5d46ogkikdchcl7q3'
+    '_identity' => '7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'test.lc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://test.lc/web/index.php?r=report%2Findex&sort=regulator'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ki3qhfjfk5d46ogkikdchcl7q3; _identity=7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck%22%3B%7D'
+    'PATH' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'test.lc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/OpenServer/domains/test.lc/web/index.php'
+    'REMOTE_PORT' => '6859'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=report%2Findex&sort=-regulator'
+    'REQUEST_URI' => '/web/index.php?r=report%2Findex&sort=-regulator'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1562872079.683
+    'REQUEST_TIME' => 1562872079
+    'argv' => [
+        0 => 'r=report%2Findex&sort=-regulator'
+    ]
+    'argc' => 1
+]
+2019-07-11 22:09:30 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Report::internal Id in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('internal Id')
+#1 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(209): yii\db\BaseActiveRecord->__get('internal Id')
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\DataColumn.php(232): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Report), 'internal Id')
+#3 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\DataColumn.php(244): yii\grid\DataColumn->getDataCellValue(Object(app\models\Report), NULL, 0)
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Report), NULL, 0)
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(525): yii\grid\Column->renderDataCell(Object(app\models\Report), NULL, 0)
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(494): yii\grid\GridView->renderTableRow(Object(app\models\Report), NULL, 0)
+#7 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(358): yii\grid\GridView->renderTableBody()
+#8 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#9 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(326): yii\widgets\BaseListView->renderSection('{items}')
+#10 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#11 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#12 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#13 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(301): yii\widgets\BaseListView->run()
+#14 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#15 D:\OpenServer\OpenServer\domains\test.lc\views\report\report.php(18): yii\base\Widget::widget(Array)
+#16 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(348): require('D:\\OpenServer\\O...')
+#17 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\OpenServer\\O...', Array)
+#18 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\OpenServer\\O...', Array, Object(app\controllers\ReportController))
+#19 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('report', Array, Object(app\controllers\ReportController))
+#20 D:\OpenServer\OpenServer\domains\test.lc\controllers\ReportController.php(69): yii\base\Controller->render('report', Array)
+#21 [internal function]: app\controllers\ReportController->actionIndex()
+#22 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#23 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#24 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#25 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('report/index', Array)
+#26 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 D:\OpenServer\OpenServer\domains\test.lc\web\index.php(12): yii\base\Application->run()
+#28 {main}
+2019-07-11 22:09:29 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][info][application] $_GET = [
+    'r' => 'report/index'
+    'sort' => '-regulator'
+    'page' => '5'
+    'per-page' => '10'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ki3qhfjfk5d46ogkikdchcl7q3'
+    '_identity' => '7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'test.lc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://test.lc/web/index.php?r=report%2Findex&sort=-regulator'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ki3qhfjfk5d46ogkikdchcl7q3; _identity=7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck%22%3B%7D'
+    'PATH' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'test.lc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/OpenServer/domains/test.lc/web/index.php'
+    'REMOTE_PORT' => '6951'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=report%2Findex&sort=-regulator&page=5&per-page=10'
+    'REQUEST_URI' => '/web/index.php?r=report%2Findex&sort=-regulator&page=5&per-page=10'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1562872169.017
+    'REQUEST_TIME' => 1562872169
+    'argv' => [
+        0 => 'r=report%2Findex&sort=-regulator&page=5&per-page=10'
+    ]
+    'argc' => 1
+]
+2019-07-11 22:10:45 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][error][yii\base\ErrorException:1] yii\base\ErrorException: Class app\models\Report contains 5 abstract methods and must therefore be declared abstract or implement the remaining methods (yii\web\IdentityInterface::findIdentity, yii\web\IdentityInterface::findIdentityByAccessToken, yii\web\IdentityInterface::getId, ...) in D:\OpenServer\OpenServer\domains\test.lc\models\Report.php:6
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-07-11 22:10:45 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][info][application] $_GET = [
+    'r' => 'report/index'
+    'sort' => '-regulator'
+    'page' => '5'
+    'per-page' => '10'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ki3qhfjfk5d46ogkikdchcl7q3'
+    '_identity' => '7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'test.lc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://test.lc/web/index.php?r=report%2Findex&sort=-regulator'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ki3qhfjfk5d46ogkikdchcl7q3; _identity=7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck%22%3B%7D'
+    'PATH' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'test.lc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/OpenServer/domains/test.lc/web/index.php'
+    'REMOTE_PORT' => '7015'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=report%2Findex&sort=-regulator&page=5&per-page=10'
+    'REQUEST_URI' => '/web/index.php?r=report%2Findex&sort=-regulator&page=5&per-page=10'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1562872245.102
+    'REQUEST_TIME' => 1562872245
+    'argv' => [
+        0 => 'r=report%2Findex&sort=-regulator&page=5&per-page=10'
+    ]
+    'argc' => 1
+]
+2019-07-11 22:15:40 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Report::getRegulator in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('getRegulator')
+#1 D:\OpenServer\OpenServer\domains\test.lc\views\report\report.php(42): yii\db\BaseActiveRecord->__get('getRegulator')
+#2 [internal function]: yii\base\View->{closure}(Object(app\models\Report), NULL, 0, Object(yii\grid\DataColumn))
+#3 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\DataColumn.php(230): call_user_func(Object(Closure), Object(app\models\Report), NULL, 0, Object(yii\grid\DataColumn))
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\DataColumn.php(244): yii\grid\DataColumn->getDataCellValue(Object(app\models\Report), NULL, 0)
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Report), NULL, 0)
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(525): yii\grid\Column->renderDataCell(Object(app\models\Report), NULL, 0)
+#7 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(494): yii\grid\GridView->renderTableRow(Object(app\models\Report), NULL, 0)
+#8 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(358): yii\grid\GridView->renderTableBody()
+#9 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#10 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(326): yii\widgets\BaseListView->renderSection('{items}')
+#11 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#14 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(301): yii\widgets\BaseListView->run()
+#15 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#16 D:\OpenServer\OpenServer\domains\test.lc\views\report\report.php(43): yii\base\Widget::widget(Array)
+#17 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(348): require('D:\\OpenServer\\O...')
+#18 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\OpenServer\\O...', Array)
+#19 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\OpenServer\\O...', Array, Object(app\controllers\ReportController))
+#20 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('report', Array, Object(app\controllers\ReportController))
+#21 D:\OpenServer\OpenServer\domains\test.lc\controllers\ReportController.php(69): yii\base\Controller->render('report', Array)
+#22 [internal function]: app\controllers\ReportController->actionIndex()
+#23 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#24 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#25 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#26 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('report/index', Array)
+#27 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 D:\OpenServer\OpenServer\domains\test.lc\web\index.php(12): yii\base\Application->run()
+#29 {main}
+2019-07-11 22:15:39 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][info][application] $_GET = [
+    'r' => 'report/index'
+    'sort' => '-regulator'
+    'page' => '1'
+    'per-page' => '10'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ki3qhfjfk5d46ogkikdchcl7q3'
+    '_identity' => '7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'test.lc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://test.lc/web/index.php?r=report%2Findex&sort=regulator&page=1&per-page=10'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ki3qhfjfk5d46ogkikdchcl7q3; _identity=7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck%22%3B%7D'
+    'PATH' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'test.lc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/OpenServer/domains/test.lc/web/index.php'
+    'REMOTE_PORT' => '7293'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=report%2Findex&sort=-regulator&page=1&per-page=10'
+    'REQUEST_URI' => '/web/index.php?r=report%2Findex&sort=-regulator&page=1&per-page=10'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1562872539.194
+    'REQUEST_TIME' => 1562872539
+    'argv' => [
+        0 => 'r=report%2Findex&sort=-regulator&page=1&per-page=10'
+    ]
+    'argc' => 1
+]
+2019-07-11 22:18:10 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Report::getInternalId in D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('getInternalId')
+#1 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(209): yii\db\BaseActiveRecord->__get('getInternalId')
+#2 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\DataColumn.php(232): yii\helpers\BaseArrayHelper::getValue(Object(app\models\Report), 'getInternalId')
+#3 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\DataColumn.php(244): yii\grid\DataColumn->getDataCellValue(Object(app\models\Report), NULL, 0)
+#4 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(app\models\Report), NULL, 0)
+#5 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(525): yii\grid\Column->renderDataCell(Object(app\models\Report), NULL, 0)
+#6 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(494): yii\grid\GridView->renderTableRow(Object(app\models\Report), NULL, 0)
+#7 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(358): yii\grid\GridView->renderTableBody()
+#8 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#9 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(326): yii\widgets\BaseListView->renderSection('{items}')
+#10 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#11 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#12 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#13 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\grid\GridView.php(301): yii\widgets\BaseListView->run()
+#14 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Widget.php(140): yii\grid\GridView->run()
+#15 D:\OpenServer\OpenServer\domains\test.lc\views\report\report.php(40): yii\base\Widget::widget(Array)
+#16 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(348): require('D:\\OpenServer\\O...')
+#17 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\OpenServer\\O...', Array)
+#18 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\OpenServer\\O...', Array, Object(app\controllers\ReportController))
+#19 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('report', Array, Object(app\controllers\ReportController))
+#20 D:\OpenServer\OpenServer\domains\test.lc\controllers\ReportController.php(69): yii\base\Controller->render('report', Array)
+#21 [internal function]: app\controllers\ReportController->actionIndex()
+#22 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#23 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#24 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#25 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('report/index', Array)
+#26 D:\OpenServer\OpenServer\domains\test.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 D:\OpenServer\OpenServer\domains\test.lc\web\index.php(12): yii\base\Application->run()
+#28 {main}
+2019-07-11 22:18:08 [127.0.0.1][100][ki3qhfjfk5d46ogkikdchcl7q3][info][application] $_GET = [
+    'r' => 'report/index'
+    'sort' => '-regulator'
+    'page' => '1'
+    'per-page' => '10'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ki3qhfjfk5d46ogkikdchcl7q3'
+    '_identity' => '7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'test.lc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_REFERER' => 'http://test.lc/web/index.php?r=report%2Findex&sort=regulator&page=1&per-page=10'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ki3qhfjfk5d46ogkikdchcl7q3; _identity=7ddf0111dafc887e49563ddb3f493143f9285c79eddaa6437a92bc437c7221cca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=a79a585dbd0de32fb548e3da21170e7d84bc863e09093aafac23e218b93065f6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227Y9LkTsBm_UCv5qJ5xtD4n_hWyrmFPck%22%3B%7D'
+    'PATH' => 'd:\\openserver\\openserver\\modules\\php\\PHP-7\\ext;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear;d:\\openserver\\openserver\\modules\\php\\PHP-7\\pear\\bin;d:\\openserver\\openserver\\modules\\php\\PHP-7;d:\\openserver\\openserver\\modules\\wget\\bin;d:\\openserver\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7\\bin;d:\\openserver\\openserver\\modules\\http\\Apache-PHP-7;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'test.lc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/OpenServer/domains/test.lc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/OpenServer/domains/test.lc/web/index.php'
+    'REMOTE_PORT' => '7419'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=report%2Findex&sort=-regulator&page=1&per-page=10'
+    'REQUEST_URI' => '/web/index.php?r=report%2Findex&sort=-regulator&page=1&per-page=10'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1562872688.264
+    'REQUEST_TIME' => 1562872688
+    'argv' => [
+        0 => 'r=report%2Findex&sort=-regulator&page=1&per-page=10'
+    ]
+    'argc' => 1
+]
